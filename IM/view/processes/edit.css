@@ -1,0 +1,105 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url(https://www.berjayahotel.com/sites/default/files/colombo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /*position*/
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: auto;
+
+    min-width: 2000px;
+    min-height: 100%;
+}
+#form {
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+}
+
+.wrapper .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+h4 {
+    top: -20%;
+    font-weight: 600;
+    font-size: x-large;
+    color: whitesmoke;
+    text-align: center;
+}
+
+form label {
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    float: left;
+  width: 110px;
+  line-height: 35px;
+  padding-left: 50px;
+}
+
+span {
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    font-weight: bold;
+    color: whitesmoke;
+    float: right;
+
+}
+input[type=text], [type=number], [type=date], input[type=textarea] {
+
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px solid white;
+    float: right;
+    
+
+}
+
+
+
+
+
+input[type="submit"] {
+    margin: 30px;
+    float:right;
+    background-color: #b6a169;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.box{
+	width: auto;
+    padding-right: 50px;
+    padding-bottom: 5px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}

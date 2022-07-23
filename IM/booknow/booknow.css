@@ -1,0 +1,409 @@
+body {
+    overflow-x: hidden;
+    background-image: url(https://www.berjayahotel.com/sites/default/files/colombo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    min-width: 2000px;
+    min-height: 950px;
+    
+}
+
+.logo img {
+    padding-left: 20px;
+    margin: 5px;
+    width: 150px;
+    height: 75px;
+    display: inline;
+
+}
+
+img {   
+    width: 275px;
+    aspect-ratio: 1 /1;
+    margin-left: 0;
+    float: left;
+}
+
+#r4, #r8 {
+    float: right;
+
+}
+
+
+.text {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(37, 37, 37)
+}
+
+.select {
+    font-size: 26px;   
+    color: whitesmoke;
+    position: fixed;
+    top: 30px;
+    left: 610px;
+}
+
+
+.t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8 {
+    position: absolute;
+    padding-top: 10px;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+}
+
+.t1 {
+    top: 275px;
+    left: 81px;
+}
+
+.t2 {
+    top: 275px;
+    left: 81px;
+}
+
+.t3 {
+    top: 275px;
+    left: 88px;
+}
+
+.t4 {
+    top: 275px;
+    left: 88px;
+}
+
+.t5 {
+    top: 275px;
+    left: 14px;
+}
+
+.t6 {
+    top: 275px;
+    left: 14px;
+}
+
+.t7 {
+    top: 275px;
+    left: 48px;
+}
+
+.t8 {
+    top: 275px;
+    left: 48px;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8 {
+    padding: 5px;
+    color: white;
+
+}
+
+.c1 {
+    position: absolute;
+    top: 10px;
+    left: 306px;
+}
+
+.c2 {
+    position: absolute;
+    top: 10px;
+    left: 306px;
+}
+
+.c3 {
+    position: absolute;
+    top: 10px;
+    left: 306px;
+}
+
+.c4 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    visibility: hidden;
+    padding-right: 300px;
+}
+
+.c5 {
+    position: absolute;
+    top: 10px;
+    left: 306px;
+}
+
+.c6 {
+    position: absolute;
+    top: 10px;
+    left: 306px;
+}
+
+.c7 {
+    position: absolute;
+    top: 10px;
+    left: 306px;
+}
+
+.c8 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    visibility: hidden;
+    padding-right: 300px;
+}
+
+.rb1, .rb2, .rb3, .rb4, .rb5, .rb6, .rb7, .rb8 {
+    position: absolute;
+    width: 275px;
+    height: 300px;
+    padding-bottom: 20px;
+    background: rgb(37, 37, 37);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.rb1, .rb2, .rb3, .rb4 {
+    top: 150px;
+}
+.rb1, .rb5 {
+    left: 31px;
+}
+.rb2, .rb6 {
+
+    left: 368px;
+}
+
+.rb3, .rb7 {
+
+    left: 705px;
+}
+.rb4, .rb8 {
+    left: 1042px;
+}
+
+.rb5, .rb6, .rb7, .rb8  {
+    top: 575px;
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8 {
+    width: 100px;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #b6a169;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 175px;
+}
+
+.b4, .b8 {
+    left: 195px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*animations*/
+
+.rb1:hover {
+   width: 612px;
+   background-color: rgba(34, 34, 34, 0.836);
+   z-index: 10;
+   transition: 200ms ease-in-out;
+}
+
+
+.rb2:hover  {
+    width: 612px;
+    background-color: rgba(34, 34, 34, 0.836);
+    z-index: 9;
+    transition: 200ms ease-in-out;
+}
+
+.rb3:hover {
+    width: 612px;
+    background-color: rgba(34, 34, 34, 0.836);
+    z-index: 9;
+    transition: 200ms ease-in-out;
+}
+
+.rb4:hover {
+    width: 612px;
+    background-color: rgba(34, 34, 34, 0.836);
+    z-index: 9;
+    transition: 200ms ease-in-out;
+    top: 150px;
+    left: 706px;
+}
+
+.rb4:hover > .c4 {
+    visibility: visible;
+}
+
+.rb4:hover > .t4 {
+    position: absolute;
+    left: 425px;
+}
+
+.rb5:hover {
+    width: 612px;
+    background-color: rgba(34, 34, 34, 0.836);
+    z-index: 9;
+    transition: 200ms ease-in-out;
+}
+
+.rb6:hover {
+    width: 612px;
+    background-color: rgba(34, 34, 34, 0.836);
+    z-index: 9;
+    transition: 200ms ease-in-out;
+}
+
+.rb7:hover {
+    width: 612px;
+    background-color: rgba(34, 34, 34, 0.836);
+    z-index: 9;
+    transition: 200ms ease-in-out;
+    
+}
+
+.rb8:hover {
+    width: 612px;
+    background-color: rgba(34, 34, 34, 0.836);
+    transition: 200ms ease-in-out;
+    top: 575px;
+    left: 706px;
+    
+} 
+
+.rb8:hover > .c8 {
+    visibility: visible;
+}
+
+.rb8:hover > .t8 {
+    position: absolute;
+    left: 378px;
+}
+/* POP UP */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.397);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.wrapper {
+    margin: 70px auto;
+    padding: 10px;
+    background:rgb(43, 43, 43);
+    border-radius: 5px;
+    width: 35%;
+    height: 68%;
+    position: relative;
+    top: 3%;
+    transition: all 5s ease-in-out;
+}
+
+.wrapper .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h4 {
+    top: -20%;
+    font-weight: 600;
+    font-size: x-large;
+    color: whitesmoke;
+    text-align: center;
+}
+p {
+    font-weight: bold;
+}
+form label {
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    float: left;
+  width: 110px;
+  line-height: 35px;
+  padding-left: 50px;
+}
+input[type=text], [type=number], [type=date]{
+
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px solid white;
+    float: right;
+    
+
+}
+select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+    border: 1px solid white;
+    float: right;
+
+}
+
+input[type="submit"] {
+    margin: 30px;
+    float:right;
+    background-color: #b6a169;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.box{
+	width: auto;
+    padding-right: 50px;
+    padding-bottom: 5px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+p {
+    font-weight: bolder;
+}

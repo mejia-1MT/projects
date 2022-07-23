@@ -1,0 +1,129 @@
+a {
+    font-family: Poppins;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+
+    
+}
+
+#booknow {
+    background-color:#b6a169;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.greeting {
+    font-family: Poppins;
+    font-size: 56px; 
+    color: whitesmoke;
+    position: fixed;
+    top: 275px;
+    left: 75px;
+    font-stretch: ultra-exp;
+
+}
+
+
+
+
+.supporting {
+    font-family: Poppins;
+    font-size: 20px;
+    color: whitesmoke;
+    position: fixed;
+    top: 375px;
+    left: 75px;
+    font-weight: lighter;
+}
+
+
+#title img {
+    top:10px;
+  height: 70px;
+  filter: sepia(100%) saturate(400%) hue-rotate(8deg) brightness(100%) contrast(80%);
+
+}
+
+
+#for-title {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#booknow, #view{
+    margin: 10px;
+    padding: 20px;
+}
+
+#login {
+    filter: invert(100%) sepia(53%) saturate(100%) hue-rotate(275deg) brightness(111%) contrast(92%);
+    padding: 15px;
+}
+
+a svg {
+    height: 40px;
+    margin-bottom: -5px;
+    margin-right:-100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#for-navs {
+    position: fixed;
+    top: 5%;
+    left: 90%;
+}
+
+a svg:hover {
+    background-color:#f1f1f19d;
+}
+
+
+
+.front-page {
+    background-image: url(https://www.berjayahotel.com/sites/default/files/colombo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /*position*/
+    position: fixed;
+    top: 0px;
+    left: 0;
+
+
+    width: 100%;
+    height: auto;
+
+    min-width: 1500px;
+    min-height: 100%;
+}   
+
+a:hover {
+    color:#b6a169;
+}
+
+#booknow:hover {
+    color: whitesmoke;
+    background-color: #978555
+}
+
+#for-navs-log {
+    position: fixed;
+    top: 50px;
+    left: 1050px;
+}
+
+.logo {
+    position: fixed;
+    top: 85%;
+    left: 3%;
+
+}
+
+.logo img {
+    height: 70px;
+}
+

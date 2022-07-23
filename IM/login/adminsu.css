@@ -1,0 +1,146 @@
+* {
+    font-family: 'Lota', sans-serif;
+    color:white;
+}
+
+body {
+    background-image: url(https://www.berjayahotel.com/sites/default/files/colombo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /*position*/
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: auto;
+
+    min-width: 2000px;
+    min-height: 100%;
+}
+
+.border {
+    position: fixed;
+    top: 75px;
+    left: 400px;
+    width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 50px;
+    background: rgba(8, 8, 8, 0.377);
+
+}
+
+.logo {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 150px;
+}
+
+
+form input{
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.username, .password {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+::-webkit-input-placeholder {
+     color: white;
+  }
+
+form svg {
+    height: 25px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.forgot {
+    text-align: right;
+    text-decoration: none;
+}
+
+input[type=submit] {
+    width: 150px;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #b6a169;
+    color: white;
+    margin: 5px;
+  position: absolute;
+  top: 78%;
+  left: 35%;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.admin-border {
+   
+    position: fixed;
+    top: 25px;
+    left: 445px;
+    width: 120px;
+    height: 10px;
+    padding: 20px;
+    background: rgba(8, 8, 8, 0.377);
+
+}
+
+.admin {
+    font-family: Georgia;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cust-border {
+    position: fixed;
+    top: 25px;
+    left: 605px;
+    width: 120px;
+    height: 10px;
+    padding: 20px;
+    background: rgba(85, 85, 85, 0.377);
+
+}
+
+.cust {
+    font-family: Georgia;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.cust-border:hover .cust {
+    color: whitesmoke;
+}
+
+.cust-border:hover {
+    background: rgba(136, 136, 136, 0.377);
+
+}

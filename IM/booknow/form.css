@@ -1,0 +1,115 @@
+body {
+    overflow-x: hidden;
+    background-image: url(https://www.berjayahotel.com/sites/default/files/colombo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    min-width: 2000px;
+    min-height: 950px;
+    
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.wrapper {
+    margin: 70px auto;
+    padding: 10px;
+    background:rgb(43, 43, 43);
+    border-radius: 5px;
+    width: 35%;
+    height: 90%;
+    position: fixed;
+    top: -7%;
+    left: 33%;
+    transition: all 5s ease-in-out;
+}
+
+.wrapper .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h4 {
+    top: -20%;
+    font-weight: 600;
+    font-size: x-large;
+    color: whitesmoke;
+    text-align: center;
+}
+p {
+    font-weight: bold;
+}
+form label {
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    float: left;
+  width: 110px;
+  line-height: 35px;
+  padding-left: 50px;
+}
+input[type=text], [type=number], [type=date], input{
+
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px solid white;
+    float: right;
+    outline: none;
+    
+
+}
+select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+    border: 1px solid white;
+    float: right;
+
+}
+
+input[type="submit"] {
+    margin: 30px;
+    float:right;
+    background-color: #b6a169;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.box{
+	width: auto;
+    padding-right: 50px;
+    padding-bottom: 5px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+p {
+    font-weight: bolder;
+}
